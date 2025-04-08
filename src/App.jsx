@@ -2,18 +2,18 @@ import React from "react";
 import "./App.css";
 
 const App = () => (
-  <div className="bg-slate-900 text-slate-400 min-h-screen antialiased selection:bg-teal-300 selection:text-teal-900">
-    <div className="mx-auto max-w-screen-xl px-6 py-12 md:px-12 lg:py-16">
+  <div className="bg-slate-900 text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-4">
-        <header className="lg:sticky lg:top-0 lg:w-1/2 lg:max-h-screen lg:flex lg:flex-col lg:justify-between">
-          <div className="py-12 lg:py-24">
+        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
+          <div>
             <NameTitle />
             <NavLinks />
             <SocialLinks />
           </div>
         </header>
 
-        <main id="content" className="lg:w-1/2 lg:py-24">
+        <main id="content" className="lg:w-[52%] lg:py-24">
           <AboutSection />
           <ExperienceSection />
           <ProjectSection />
@@ -25,13 +25,13 @@ const App = () => (
 
 const NameTitle = () => (
   <div>
-    <h1 className="text-4xl font-bold tracking-tight text-slate-200">
-      <a href="/">Chris 'Miles'</a>
+    <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
+      Chris 'Miles'
     </h1>
-    <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200">
+    <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
       Full Stack Engineer
     </h2>
-    <p className="mt-4 max-w-xs">
+    <p className="mt-4 max-w-xs leading-normal">
       I build accessible, pixel-perfect digital experiences for the web.
     </p>
   </div>
@@ -100,7 +100,7 @@ const AboutSection = () => (
       </h2>
     </div>
     <p className="mb-4">
-      I’m a developer passionate about crafting accessible, pixel-perfect user
+      I'm a developer passionate about crafting accessible, pixel-perfect user
       interfaces... (Placeholder text; update as needed.)
     </p>
   </section>
