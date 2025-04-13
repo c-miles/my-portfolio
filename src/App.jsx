@@ -56,12 +56,12 @@ const NavLinks = ({ activeSection }) => (
           href="#about"
         >
           <span
-            className={`mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none ${
+            className={`mr-4 h-px w-8 bg-slate-600 transition-all duration-300 group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none ${
               activeSection === "about" ? "w-16 bg-slate-200" : ""
             }`}
           ></span>
           <span
-            className={`text-xs font-bold uppercase tracking-widest transition-colors ${
+            className={`text-xs font-bold uppercase tracking-widest transition-colors duration-300 ${
               activeSection === "about"
                 ? "text-slate-200"
                 : "text-slate-500 group-hover:text-slate-200"
@@ -79,12 +79,12 @@ const NavLinks = ({ activeSection }) => (
           href="#experience"
         >
           <span
-            className={`mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none ${
+            className={`mr-4 h-px w-8 bg-slate-600 transition-all duration-300 group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none ${
               activeSection === "experience" ? "w-16 bg-slate-200" : ""
             }`}
           ></span>
           <span
-            className={`text-xs font-bold uppercase tracking-widest transition-colors ${
+            className={`text-xs font-bold uppercase tracking-widest transition-colors duration-300 ${
               activeSection === "experience"
                 ? "text-slate-200"
                 : "text-slate-500 group-hover:text-slate-200"
@@ -102,12 +102,12 @@ const NavLinks = ({ activeSection }) => (
           href="#projects"
         >
           <span
-            className={`mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none ${
+            className={`mr-4 h-px w-8 bg-slate-600 transition-all duration-300 group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none ${
               activeSection === "projects" ? "w-16 bg-slate-200" : ""
             }`}
           ></span>
           <span
-            className={`text-xs font-bold uppercase tracking-widest transition-colors ${
+            className={`text-xs font-bold uppercase tracking-widest transition-colors duration-300 ${
               activeSection === "projects"
                 ? "text-slate-200"
                 : "text-slate-500 group-hover:text-slate-200"
