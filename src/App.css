@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 #root {
   margin: 0 auto;
@@ -6,3 +9,14 @@
 }
 
 /* Remove all the Vite template styles and keep only the necessary styles */
+
+.nav-links {
+  display: none;
+  margin-top: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .nav-links {
+    display: block;
+  }
+}

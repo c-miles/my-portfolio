@@ -17,7 +17,7 @@ function App() {
               <NameTitle />
               <NavLinks activeSection={activeSection} />
             </div>
-            <div className="mt-auto pt-8">
+            <div className="mt-auto pt-8 mb-16 md:mb-24 lg:mb-0">
               <SocialLinks />
             </div>
           </header>
@@ -213,7 +213,7 @@ const NameTitle = () => (
 );
 
 const NavLinks = ({ activeSection }) => (
-  <nav className="block lg:hidden mt-16" aria-label="In-page jump links">
+  <nav className="nav-links" aria-label="In-page jump links">
     <ul className="w-max">
       <li>
         <a
