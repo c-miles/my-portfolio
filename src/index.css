@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
 
 html {
   scroll-behavior: smooth;
@@ -14,12 +20,9 @@ body {
   width: 100%;
   overflow-x: hidden;
   background-color: #0f172a;
-  display: flex;
-  place-items: center;
 }
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
