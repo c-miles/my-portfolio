@@ -58,8 +58,10 @@ const NavLinks = ({ activeSection }) => (
           href="#about"
         >
           <span
-            className={`mr-4 h-px w-8 bg-slate-600 transition-all duration-300 group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none ${
-              activeSection === "about" ? "w-16 bg-slate-200" : ""
+            className={`mr-4 h-px w-8 transition-all duration-300 group-hover:w-16 motion-reduce:transition-none ${
+              activeSection === "about"
+                ? "w-16 bg-slate-200"
+                : "bg-slate-500 group-hover:bg-slate-200"
             }`}
           ></span>
           <span
@@ -81,8 +83,10 @@ const NavLinks = ({ activeSection }) => (
           href="#experience"
         >
           <span
-            className={`mr-4 h-px w-8 bg-slate-600 transition-all duration-300 group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none ${
-              activeSection === "experience" ? "w-16 bg-slate-200" : ""
+            className={`mr-4 h-px w-8 transition-all duration-300 group-hover:w-16 motion-reduce:transition-none ${
+              activeSection === "experience"
+                ? "w-16 bg-slate-200"
+                : "bg-slate-500 group-hover:bg-slate-200"
             }`}
           ></span>
           <span
@@ -104,8 +108,10 @@ const NavLinks = ({ activeSection }) => (
           href="#projects"
         >
           <span
-            className={`mr-4 h-px w-8 bg-slate-600 transition-all duration-300 group-hover:w-16 group-hover:bg-slate-200 motion-reduce:transition-none ${
-              activeSection === "projects" ? "w-16 bg-slate-200" : ""
+            className={`mr-4 h-px w-8 transition-all duration-300 group-hover:w-16 motion-reduce:transition-none ${
+              activeSection === "projects"
+                ? "w-16 bg-slate-200"
+                : "bg-slate-500 group-hover:bg-slate-200"
             }`}
           ></span>
           <span
