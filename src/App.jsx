@@ -1,27 +1,31 @@
 import React from "react";
 import "./App.css";
 
-const App = () => (
-  <div className="bg-slate-900 text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
-    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
-      <div className="lg:flex lg:justify-between lg:gap-4">
-        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
-          <div>
-            <NameTitle />
-            <NavLinks />
-            <SocialLinks />
-          </div>
-        </header>
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
-        <main id="content" className="lg:w-[52%] lg:py-24">
-          <AboutSection />
-          <ExperienceSection />
-          <ProjectSection />
-        </main>
+const App = () => {
+  return (
+    <div className="bg-slate-900 text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+      <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
+        <div className="lg:flex lg:justify-between lg:gap-4">
+          <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
+            <div>
+              <NameTitle />
+              <NavLinks />
+              <SocialLinks />
+            </div>
+          </header>
+
+          <main id="content" className="lg:w-[52%] lg:py-24">
+            <AboutSection />
+            <ExperienceSection />
+            <ProjectSection />
+          </main>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 const NameTitle = () => (
   <div>
@@ -72,17 +76,38 @@ const SocialLinks = () => (
   <ul className="mt-8 flex items-center" aria-label="Social media">
     <li className="mr-5">
       <a
-        className="block hover:text-slate-200"
-        href="https://github.com/YourGitHub"
+        className="group block transition-colors"
+        href="https://github.com/c-miles"
         target="_blank"
         rel="noreferrer noopener"
         title="GitHub"
       >
         <span className="sr-only">GitHub</span>
-
-        <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54..."></path>
-        </svg>
+        <FaGithub className="h-6 w-6 text-slate-400 group-hover:text-slate-200" />
+      </a>
+    </li>
+    <li className="mr-5">
+      <a
+        className="group block transition-colors"
+        href="https://linkedin.com/in/c-miles"
+        target="_blank"
+        rel="noreferrer noopener"
+        title="LinkedIn"
+      >
+        <span className="sr-only">LinkedIn</span>
+        <FaLinkedin className="h-6 w-6 text-slate-400 group-hover:text-slate-200" />
+      </a>
+    </li>
+    <li className="mr-5">
+      <a
+        className="group block transition-colors"
+        href="https://www.instagram.com/st0rm_b0rn_/"
+        target="_blank"
+        rel="noreferrer noopener"
+        title="Instagram"
+      >
+        <span className="sr-only">Instagram</span>
+        <FaInstagram className="h-6 w-6 text-slate-400 group-hover:text-slate-200" />
       </a>
     </li>
   </ul>
