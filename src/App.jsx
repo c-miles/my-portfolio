@@ -213,8 +213,8 @@ const ExperienceSection = () => (
         Experience
       </h2>
     </div>
-    <div className="text-slate-400">
-      <div className="group relative mb-12 rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50">
+    <div className="text-slate-400 group/list">
+      <div className="group relative mb-12 rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
         <h3 className="text-lg font-semibold text-slate-200">
           Senior Full Stack Developer
         </h3>
@@ -225,7 +225,7 @@ const ExperienceSection = () => (
           <li>Mentored junior developers and conducted code reviews</li>
         </ul>
       </div>
-      <div className="group relative mb-12 rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50">
+      <div className="group relative mb-12 rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
         <h3 className="text-lg font-semibold text-slate-200">
           Frontend Developer
         </h3>
@@ -258,8 +258,8 @@ const ProjectSection = () => (
         Projects
       </h2>
     </div>
-    <div className="text-slate-400">
-      <div className="group relative mb-12 rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50">
+    <div className="text-slate-400 group/list">
+      <div className="group relative mb-12 rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
         <h3 className="text-lg font-semibold text-slate-200">
           E-commerce Platform
         </h3>
@@ -269,7 +269,7 @@ const ProjectSection = () => (
           management, payment processing, and analytics dashboard.
         </p>
       </div>
-      <div className="group relative mb-12 rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50">
+      <div className="group relative mb-12 rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
         <h3 className="text-lg font-semibold text-slate-200">
           Task Management App
         </h3>
@@ -281,7 +281,7 @@ const ProjectSection = () => (
           team workspaces, and progress tracking.
         </p>
       </div>
-      <div className="group relative rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50">
+      <div className="group relative rounded-lg border border-transparent p-4 transition-colors hover:border-slate-700/50 hover:bg-slate-800/50 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
         <h3 className="text-lg font-semibold text-slate-200">
           Weather Dashboard
         </h3>
