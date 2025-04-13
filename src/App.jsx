@@ -14,6 +14,8 @@ const App = () => {
             <div>
               <NameTitle />
               <NavLinks activeSection={activeSection} />
+            </div>
+            <div className="mt-auto pt-8">
               <SocialLinks />
             </div>
           </header>
@@ -120,7 +122,7 @@ const NavLinks = ({ activeSection }) => (
 );
 
 const SocialLinks = () => (
-  <ul className="mt-8 flex items-center" aria-label="Social media">
+  <ul className="flex items-center" aria-label="Social media">
     <li className="mr-5">
       <a
         className="group block transition-colors"
