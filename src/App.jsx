@@ -44,7 +44,7 @@ const NameTitle = () => (
 );
 
 const NavLinks = ({ activeSection }) => (
-  <nav className="hidden lg:block mt-16" aria-label="In-page jump links">
+  <nav className="mt-16" aria-label="In-page jump links">
     <ul className="w-max">
       <li>
         <a
