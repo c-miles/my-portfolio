@@ -1,24 +1,15 @@
 export const experience = {
   jobs: [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Inc.",
-      period: "2021 - Present",
-      achievements: [
-        "Led the development of a scalable microservices architecture",
-        "Implemented CI/CD pipelines reducing deployment time by 40%",
-        "Mentored junior developers and conducted code reviews"
-      ]
-    },
-    {
-      title: "Frontend Developer",
-      company: "WebSolutions Ltd.",
-      period: "2019 - 2021",
-      achievements: [
-        "Developed responsive web applications using React and TypeScript",
-        "Optimized application performance resulting in 30% faster load times",
-        "Collaborated with UX designers to implement pixel-perfect designs"
-      ]
+      title: "Software Engineer III",
+      company: "Orange Barrel Media / IKE Smart City",
+      period: "2022 — Present",
+      companyLink: "https://ikesmartcity.com",
+      previousRoles: [
+        "Software Engineer"
+      ],
+      description: "Develop and maintain features for interactive kiosks deployed across major U.S. cities. Created a multiplayer arcade app with WebSockets, integrated Google Places APIs with zero downtime, designed scalable transit data systems for 600+ kiosks, and reduced weather data provider costs by 59%.",
+      technologies: ["Ruby on Rails", "React", "React Native", "JavaScript", "HTML", "CSS", "SCSS", "AWS", "Heroku", "PostgreSQL"]
     }
   ],
   resumeLink: "/resume.pdf",
