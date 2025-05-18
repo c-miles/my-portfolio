@@ -9,7 +9,7 @@ export const experience = {
         "Software Engineer"
       ],
       description: "Develop and maintain features for interactive kiosks deployed across major U.S. cities. Created a multiplayer arcade app with WebSockets, integrated Google Places APIs with zero downtime, designed scalable transit data systems for 600+ kiosks, and reduced weather data provider costs by 59%.",
-      technologies: ["Ruby on Rails", "React", "React Native", "JavaScript", "HTML", "CSS", "SCSS", "AWS", "Heroku", "PostgreSQL"]
+      technologies: ["Ruby on Rails", "React", "React Native", "JavaScript", "HTML", "CSS", "SCSS", "SQL", "AWS", "Heroku", "Sidekiq"]
     }
   ],
   resumeLink: "/resume.pdf",
