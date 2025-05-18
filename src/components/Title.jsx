@@ -9,7 +9,7 @@ const Title = () => (
       Full Stack Engineer
     </h2>
     <p className="mt-4 max-w-xs leading-normal">
-      I build accessible, pixel-perfect digital experiences for the web.
+      I build intuitive, user-focused applications with clean, scalable code.
     </p>
   </div>
 );
