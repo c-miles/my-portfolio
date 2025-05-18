@@ -2,9 +2,10 @@ export const experience = {
   jobs: [
     {
       title: "Software Engineer III",
-      company: "Orange Barrel Media / IKE Smart City",
+      company: "Orange Barrel Media",
+      // company: "Orange Barrel Media / IKE Smart City",
       period: "2022 — Present",
-      companyLink: "https://ikesmartcity.com",
+      companyLink: "https://obm.com",
       previousRoles: [
         "Software Engineer"
       ],
