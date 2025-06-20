@@ -1,0 +1,45 @@
+# Chris Miles - Software Engineer
+
+> Experienced Software Engineer specializing in Ruby on Rails, React, JavaScript, and React Native. Passionate about building scalable, user-centric applications where design meets functionality.
+
+## About
+
+I'm a Software Engineer with a passion for building robust, scalable solutions. My journey into tech began in 2020 when I made a career pivot, teaching myself to code through online courses before attending a coding bootcamp in Columbus. Currently at Orange Barrel Media, I develop and maintain software for interactive kiosks deployed across major U.S. cities.
+
+I specialize in creating experiences that blend intuitive design with technical excellence, using modern technologies to build features that enhance both performance and user experience. Throughout my time in the industry, I've worked on diverse projects — from designing scalable data systems for transit information to integrating mapping APIs for location-based services.
+
+## Technical Skills
+
+- **Frontend**: React, React Native, JavaScript, Vue.js, Tailwind CSS, HTML5, CSS3
+- **Backend**: Ruby on Rails, Ruby, Node.js, Express.js, PostgreSQL, MongoDB
+- **Specialized**: WebRTC (mesh networking), Socket.IO, Auth0, API integration
+- **Tools**: Git, Vite, Webpack, ESLint, npm, responsive design
+
+## Featured Projects
+
+- [Yap Video Chat](https://github.com/c-miles/yap): WebRTC-based 6-person video conferencing application with mesh P2P connections, real-time messaging, and Auth0 authentication. Built with React, JavaScript, Node.js, and MongoDB.
+
+- [Outlook Pointe RV Campground](https://github.com/c-miles/outlook-pointe): Business website for RV campground using Vue.js 3, featuring photo gallery, rates, and contact information with optimized performance and responsive design.
+
+- [ProtoBlog](https://github.com/c-miles/proto-blog): Full-stack Ruby on Rails blogging platform with multi-user support, role-based access control, and content management system. Includes session-based authentication and PostgreSQL database.
+
+## Professional Experience
+
+**Software Engineer** at Orange Barrel Media (2022 - Present)
+- Develop and maintain software for interactive kiosks deployed across major U.S. cities
+- Build scalable data systems for transit information and location-based services
+- Integrate mapping APIs and enhance user experience for public technology interfaces
+- Work with Ruby on Rails and React to create robust, performance-focused applications
+
+## Contact & Links
+
+- **Website**: https://chrismiles.dev
+- **GitHub**: https://github.com/c-miles
+- **LinkedIn**: https://linkedin.com/in/c-miles
+- **Resume**: https://chrismiles.dev/resume.pdf
+
+## Career Focus
+
+I find the most satisfaction in solving complex problems that improve how people interact with technology in public spaces. I'm passionate about creating accessible, inclusive products and digital experiences that make a real impact on users' daily lives.
+
+When I'm not coding, you'll find me hiking trails with my wife, chasing achievements in video games, lifting weights, or planning our next travel adventure.
