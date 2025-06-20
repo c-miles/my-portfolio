@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+      className="mb-16 scroll-mt-16 md:mb-20 lg:mb-24 lg:scroll-mt-24"
       aria-label="About me"
     >
       <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-slate-200 lg:hidden">

@@ -27,7 +27,7 @@ const Socials = () => (
         <FaLinkedin className="h-6 w-6 text-slate-400 group-hover:text-slate-200" />
       </a>
     </li>
-    <li className="mr-5">
+    {/* <li className="mr-5">
       <a
         className="group block transition-colors"
         href="https://www.instagram.com/st0rm_b0rn_/"
@@ -38,7 +38,7 @@ const Socials = () => (
         <span className="sr-only">Instagram</span>
         <FaInstagram className="h-6 w-6 text-slate-400 group-hover:text-slate-200" />
       </a>
-    </li>
+    </li> */}
   </ul>
 );
 
