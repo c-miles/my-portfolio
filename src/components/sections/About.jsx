@@ -7,6 +7,9 @@ const About = () => {
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
       aria-label="About me"
     >
+      <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-slate-200 lg:hidden">
+        About
+      </h2>
       <div className="text-slate-400">
         <p className="mb-4">
           I'm a Software Engineer with a passion for building robust, scalable

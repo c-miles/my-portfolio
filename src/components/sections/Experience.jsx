@@ -7,6 +7,9 @@ const Experience = () => (
     className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     aria-label="Work experience"
   >
+    <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-slate-200 lg:hidden">
+      Experience
+    </h2>
     <div className="text-slate-400">
       <ul className="group/list">
         {experience.jobs.map((job, index) => (
